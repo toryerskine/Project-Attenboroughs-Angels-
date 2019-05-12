@@ -1,6 +1,6 @@
 body {
     color: rgb(65, 75, 86);
-    font-family: arial;
+    font-family: Tahoma;
     margin:0
 }
 div {
@@ -38,7 +38,7 @@ ol {
 }
 
 a:hover {
-    color:pink;
+    color:green;
 }
 
 li{
