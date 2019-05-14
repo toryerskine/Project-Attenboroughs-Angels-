@@ -3,16 +3,13 @@ body {
     font-family: Tahoma;
     margin:0
 }
-div {
-      min-height:100vh:
-      width: 100vw;
-}
+
 
 h1,h2 {
     text-align: center;
 }
 h1 {
-    font-size:4em;
+    font-size:6em;
 }
 img {
   display: flex;
