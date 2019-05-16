@@ -1,3 +1,108 @@
 body {
   background-color: lightblue;
 }
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+  ul.a {
+    border-left: 5px solid #777 ;
+    background-color: lightblue;
+    list-style-type: none;
+    padding: 20px 20px;
+    font-size: 1.2em;
+}
+
+.boxed {
+  width: 90%;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightblue;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#restaurants {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #4CAF50;
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+display: -moz-inline-box;
+width: 19%;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 12px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: lightblue;
+}
