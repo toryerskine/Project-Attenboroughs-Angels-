@@ -1,0 +1,164 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.author_description, .post-author-tag__text {
+  text-align: center;
+}
+
+
+}
+p {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+  ul.a {
+    border-left: 5px solid #777 ;
+    background-color: lightblue;
+    list-style-type: none;
+    padding: 20px 20px;
+    font-size: 1.2em;
+}
+
+.boxed {
+  width: 90%;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.card-container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightblue;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#restaurants {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #4CAF50;
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+display: -moz-inline-box;
+width: 19%;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 12px;
+}
+
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+
+
+/* footer */
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.avatar{
+
+  border-radius: 50%;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
