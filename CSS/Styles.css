@@ -5,12 +5,18 @@ body {
     background-color: rgb(25,35,71);
 
 }
-
-
-h1,h2 {
-    text-align: center;
+div {
+      min-height:100vh:
+      width: 100vw;
 }
+
+
 h1 {
+    font-size:4em;
+  }
+
+gif {
+  background-color:rgb(25, 35, 71);
   display: flex;
   margin:0 auto;
   border: 0;
